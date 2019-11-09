@@ -1,3 +1,6 @@
+// Rust Language Complete Guide 
+
+
 #![allow(non_snake_case)]
 
 // mod print;
@@ -9,7 +12,12 @@
 // mod vectors;
 // mod conditioners;
 // mod loops;
-mod functions;
+// mod functions;
+// mod pointers;
+// mod structs;
+// mod enums;
+// mod cli:
+
 
 fn main() {
     // print::run();
@@ -21,6 +29,8 @@ fn main() {
     // vectors::run();
     // conditioners::run();
     //loops::run();
-    functions::run();
-
+    //functions::run();
+    //pointers::run ();
+    //structs::run();
+    //cli::run()
 }
