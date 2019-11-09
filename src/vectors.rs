@@ -10,6 +10,14 @@ pub fn run () {
     // Reassign Values
     numbers[2] = 30;
 
+    // Add on to vector
+    numbers.push(5);
+    numbers.push(6);
+
+    // Pop off last valuee
+    numbers.pop();
+
+
     println!("{:?}", numbers);
 
     // Get Single Val
@@ -28,6 +36,17 @@ pub fn run () {
     // Arrays are stack allocated
     println!("This slice occupies {} bytes", mem::size_of_val(&slice));
 
+    //Loop thorugh Vector values
+    for x in numbers.iter() {
+        println!("Number: {}", x);
 
+    }
+
+
+    // Loop and mutate values Rust
+    for x in numbers.iter_mut() {
+        *x *= 2;
+    }
+    println!("{:?}", numbers );
 
 }
