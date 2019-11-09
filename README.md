@@ -1,2 +1,2 @@
 # rust.tools
-Rust.tools - Rust Language Tools: Resources and Information (rust-lang.org)
+Rust.tools - Rust Tools: Resources and Information
